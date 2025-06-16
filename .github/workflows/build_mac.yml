@@ -25,7 +25,7 @@ jobs:
 
     - name: Build macOS GUI App
       run: |
-        pyinstaller salary_calculator_v6_final_release.py --onefile --windowed --name SalaryCalcApp
+        pyinstaller salary_calculator_v6_final_release.py --onefile --windowed --name SalaryApp
         ls -lh dist/
 
     - name: Upload .app artifact
